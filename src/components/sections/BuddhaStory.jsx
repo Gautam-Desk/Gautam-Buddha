@@ -11,7 +11,7 @@ const STORY_ACTS = [
     title: "The Auspicious Nativity & The Golden Palace",
     subtitle: "A Prince Born under the Sal Blossoms",
     location: "Lumbini & Kapilavastu",
-    image: "/zaimful-buddha-1478259.webp",
+    image: "./zaimful-buddha-1478259.webp",
     quote: "Aggo'hamasmi lokassa, jeṭṭho'hamasmi lokassa, seṭṭho'hamasmi lokassa. Ayamantimā jāti, natthi dāni punabbhavo.",
     quoteTranslation: "Chief am I in the world, supreme am I in the world. This is my final birth; there is no further rebirth for me.",
     narrative: [
@@ -29,7 +29,7 @@ const STORY_ACTS = [
     title: "The Four Sights & The Great Renunciation",
     subtitle: "Trading a Kingdom for the Path of Truth",
     location: "Anoma River & Uruvela Forest",
-    image: "/1.webp",
+    image: "./1.webp",
     quote: "Appamattā na mīyanti, ye pamattā yathā matā.",
     quoteTranslation: "The heedful do not die; the heedless are already like the dead.",
     narrative: [
@@ -47,7 +47,7 @@ const STORY_ACTS = [
     title: "The Defeat of Mara & Supreme Awakening",
     subtitle: "The Dawn of Unshakeable Liberation",
     location: "Under the Bodhi Tree, Bodh Gaya",
-    image: "/bodhi_tree.webp",
+    image: "./bodhi_tree.webp",
     quote: "Gahakāraka diṭṭho'si, puna gehaṃ na kāhasi! Sabbā te phāsukā bhaggā, gahakūṭaṃ visaṅkhataṃ!",
     quoteTranslation: "O house-builder of suffering! You are seen! You shall build no more houses for me. All your rafters are broken; the ridge-pole is shattered!",
     narrative: [
@@ -65,7 +65,7 @@ const STORY_ACTS = [
     title: "The 45-Year Ministry & Compassionate Works",
     subtitle: "Transforming Bandits, Healing Grief, and Establishing the Sangha",
     location: "Sarnath, Rajgir, Shravasti & Vaishali",
-    image: "/3.webp",
+    image: "./3.webp",
     quote: "Caratha bhikkhave cārikaṃ bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṃ.",
     quoteTranslation: "Go forth, O bhikkhus, for the welfare of the many, for the happiness of the many, out of compassion for the world.",
     narrative: [
@@ -85,7 +85,7 @@ const STORY_ACTS = [
     title: "The Great Passing into Mahāparinibbāna",
     subtitle: "The Final Exhortation: Strive On with Diligence",
     location: "Twin Sal Groves of Kushinagar",
-    image: "/medusa_print_art-buddha-7850744.webp",
+    image: "./medusa_print_art-buddha-7850744.webp",
     quote: "Handa dāni, bhikkhave, āmantayāmi vo: Vayadhammā saṅkhārā, appamādena sampādetha.",
     quoteTranslation: "Behold now, bhikkhus, I exhort you: All conditioned things are subject to disintegration and decay. Strive on with diligence!",
     narrative: [

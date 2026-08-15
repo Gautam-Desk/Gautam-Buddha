@@ -28,7 +28,7 @@ export default function EarlyLife() {
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-gold-500/20 bg-temple-900 shadow-2xl shadow-black/40">
             <motion.img
               style={{ y }}
-              src="/zaimful-buddha-1478259.jpg"
+              src="./zaimful-buddha-1478259.webp"
               alt="A serene Buddha image"
               className="absolute inset-0 h-[120%] w-full object-cover opacity-90"
               loading="lazy"
