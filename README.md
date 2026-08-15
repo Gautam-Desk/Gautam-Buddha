@@ -1,3 +1,5 @@
+https://gautam-desk.github.io/Gautam-Buddha/
+
 # ☸ Gautam Buddha — The Enlightened Path & Sacred Dhamma Sanctuary
 
 > *“Sabbapāpassa akaraṇaṃ, kusalassa upasampadā; Sacittapariyodapanaṃ, etaṃ buddhāna sāsanaṃ.”*  
