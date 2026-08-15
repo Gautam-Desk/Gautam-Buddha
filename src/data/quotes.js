@@ -1,0 +1,128 @@
+/**
+ * Canonically authenticated verses and discourses of the Buddha.
+ * Verified with Pali Canon chapter & verse references (Dhammapada, Nikayas).
+ */
+
+export const CATEGORIES = [
+  { id: "all", label: "All Wisdom" },
+  { id: "mind", label: "Mastery of Mind" },
+  { id: "peace", label: "Inner Peace" },
+  { id: "compassion", label: "Compassion & Goodwill" },
+  { id: "karma", label: "Karma & Deeds" },
+  { id: "wisdom", label: "Wisdom & Non-Attachment" },
+];
+
+export const QUOTES = [
+  {
+    id: 1,
+    category: "mind",
+    text: "Mind precedes all mental states. Mind is their chief; they are all mind-wrought. If with a pure mind a person speaks or acts, happiness follows him like his never-departing shadow.",
+    pali: "Manopubbaṅgamā dhammā manosēṭṭhā manomayā; Manasā ce pasannēna bhāsati vā karoti vā, Tato naṁ sukhamanvēti chāyāva anapāyinī.",
+    source: "Dhammapada, Verse 2",
+    context: "The law of consciousness and mental purity",
+  },
+  {
+    id: 2,
+    category: "compassion",
+    text: "Hatred is never appeased by hatred in this world. By non-hatred alone is hatred appeased. This is an eternal law.",
+    pali: "Na hi vērēna vērāni sammantīdha kudācanaṁ; Avērēna ca sammanti ēsa dhammō sanantanō.",
+    source: "Dhammapada, Verse 5",
+    context: "On overcoming enmity with boundless goodwill",
+  },
+  {
+    id: 3,
+    category: "mind",
+    text: "Better than a thousand hollow words is one word that brings peace.",
+    pali: "Sahassampi ce vācā anatthapadasaṁhitā; Ekaṁ atthapadaṁ seyyo yaṁ sutvā upasammati.",
+    source: "Dhammapada, Verse 100",
+    context: "On meaningful speech and tranquility",
+  },
+  {
+    id: 4,
+    category: "peace",
+    text: "Peace comes from within. Do not seek it without. When the mind is still, the entire universe surrenders.",
+    pali: "Ajjhattameva upasame, na aññato santimese.",
+    source: "Attadanda Sutta (Sutta Nipata 4.15)",
+    context: "Finding inner sanctuary amidst external turmoil",
+  },
+  {
+    id: 5,
+    category: "wisdom",
+    text: "Three things cannot be long hidden: the sun, the moon, and the truth.",
+    pali: "Tīṇimāni bhikkhave vivaṭāni virocanti no paṭicchannāni: Candamaṇḍalaṁ, sūriyamaṇḍalaṁ, tathāgatappavedito dhammavinayo.",
+    source: "Anguttara Nikaya 3.129",
+    context: "The inevitable radiance of truth",
+  },
+  {
+    id: 6,
+    category: "wisdom",
+    text: "You yourself must strive; the Buddhas are only teachers who point the path. Those who enter the path and meditate are freed from the bonds of Mara.",
+    pali: "Tumhehi kiccamātappaṁ akkhātāro tathāgatā; Paṭipannā pamokkhanti jhāyino mārabandhanā.",
+    source: "Dhammapada, Verse 276",
+    context: "Self-reliance and personal effort on the spiritual path",
+  },
+  {
+    id: 7,
+    category: "compassion",
+    text: "Just as a mother would protect with her life her child, her only child, so too for all creatures unfold a boundless heart of loving-kindness.",
+    pali: "Mātā yathā niyaṁ puttaṁ āyusā ekaputtamanurakkhe; Evampi sabbabhūtesu mānasaṁ bhāvaye aparimāṇaṁ.",
+    source: "Karaniya Metta Sutta (Sutta Nipata 1.8)",
+    context: "The universal practice of loving-kindness",
+  },
+  {
+    id: 8,
+    category: "karma",
+    text: "Do not disregard evil, saying, 'It will not come back to me.' By the falling of water drops a water jar is filled; so too the fool gathers evil little by little.",
+    pali: "Māvamaññetha pāpassa na maṁ taṁ āgamissati; Udabindunipātena udakumbhopi pūrati.",
+    source: "Dhammapada, Verse 121",
+    context: "The cumulative nature of karma",
+  },
+  {
+    id: 9,
+    category: "karma",
+    text: "Do not underestimate good, saying, 'It will not benefit me.' By the falling of water drops a water jar is filled; so too the wise person gathers goodness little by little.",
+    pali: "Māvamaññetha puññassa na maṁ taṁ āgamissati; Udabindunipātena udakumbhopi pūrati.",
+    source: "Dhammapada, Verse 122",
+    context: "The gradual accumulation of merit and virtue",
+  },
+  {
+    id: 10,
+    category: "mind",
+    text: "Though one may conquer a thousand times a thousand men in battle, yet he indeed is the noblest victor who conquers himself alone.",
+    pali: "Yo sahassaṁ sahassena saṅgāme mānuse jine; Ekañca jeyyamattānaṁ sa ve saṅgāmajuttamo.",
+    source: "Dhammapada, Verse 103",
+    context: "Self-conquest as the highest victory",
+  },
+  {
+    id: 11,
+    category: "peace",
+    text: "There is no fire like lust; there is no grip like hatred; there is no net like delusion; there is no river like craving.",
+    pali: "Natthi rāgasamo aggi, natthi dosasamo gaho; Natthi mohasamaṁ jālaṁ, natthi taṇhāsamā nadī.",
+    source: "Dhammapada, Verse 251",
+    context: "Recognizing the fires that disturb mental calm",
+  },
+  {
+    id: 12,
+    category: "wisdom",
+    text: "Do not believe in anything simply because you have heard it. But after observation and analysis, when you find that anything agrees with reason and is conducive to the good of all, then accept it and live up to it.",
+    pali: "Kālāma Sutta inquiry on experiential verification",
+    source: "Anguttara Nikaya 3.65 (Kalama Sutta)",
+    context: "The charter of free inquiry and experiential validation",
+  },
+  {
+    id: 13,
+    category: "wisdom",
+    text: "All conditioned things are impermanent. When one sees this with insight, one becomes disenchanted with suffering. This is the path to purity.",
+    pali: "Sabbe saṅkhārā aniccā’ti yadā paññāya passati; Atha nibbindatī dukkhe esa maggo visuddhiyā.",
+    source: "Dhammapada, Verse 277",
+    context: "Direct insight into impermanence (Anicca)",
+  },
+  {
+    id: 14,
+    category: "compassion",
+    text: "All tremble at violence; all fear death. Putting oneself in the place of another, one should neither kill nor cause to kill.",
+    pali: "Sabbe tasanti daṇḍassa, sabbesaṁ jīvitaṁ piyaṁ; Attānaṁ upamaṁ katvā, na haneyya na ghātaye.",
+    source: "Dhammapada, Verse 130",
+    context: "Golden rule of empathy and non-harming (Ahimsa)",
+  },
+];

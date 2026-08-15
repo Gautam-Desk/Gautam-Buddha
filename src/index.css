@@ -1,0 +1,164 @@
+@import "tailwindcss";
+
+/* Theme tokens — Tailwind v4 @theme syntax */
+@theme {
+  --color-saffron-50: #fff8ec;
+  --color-saffron-100: #fdecce;
+  --color-saffron-200: #fbd88d;
+  --color-saffron-300: #f7b94a;
+  --color-saffron-400: #f19a26;
+  --color-saffron-500: #e07a14;
+  --color-saffron-600: #b85a0e;
+  --color-saffron-700: #8e3f0c;
+  --color-saffron-800: #5e2a08;
+  --color-saffron-900: #3a1905;
+
+  --color-temple-50: #fbf6f0;
+  --color-temple-100: #f1e4cf;
+  --color-temple-200: #e0c79a;
+  --color-temple-800: #3d2512;
+  --color-temple-900: #231508;
+  --color-temple-950: #120b04;
+
+  --color-gold-300: #f5cf6d;
+  --color-gold-400: #d9a441;
+  --color-gold-500: #b8862a;
+  --color-gold-600: #8c6320;
+  --color-gold-700: #624310;
+
+  --font-display: "Cinzel", "Marcellus", serif;
+  --font-heading: "Cinzel", "Marcellus", serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-quote: "Cormorant Garamond", serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #120b04;
+  color: #fbf6f0;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  letter-spacing: 0.04em;
+}
+
+.font-display {
+  font-family: "Cinzel", "Marcellus", serif;
+}
+
+/* Custom Gold Gradient & Glow utilities */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #fce09b 0%, #d9a441 50%, #b8862a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-glow {
+  box-shadow: 0 0 35px -5px rgba(217, 164, 65, 0.25);
+}
+
+.gold-border-glow {
+  border-color: rgba(217, 164, 65, 0.35);
+  box-shadow: 0 0 20px rgba(217, 164, 65, 0.15);
+}
+
+/* Subtle Lotus Background Ambient */
+.bg-mandala {
+  background-image: radial-gradient(circle at 50% 50%, rgba(217, 164, 65, 0.06) 0%, transparent 60%);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #120b04;
+}
+::-webkit-scrollbar-thumb {
+  background: #624310;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b8862a;
+}
+
+/* Focus states for accessibility */
+:focus-visible {
+  outline: 2px solid #d9a441;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Content visibility optimization for offscreen sections */
+.content-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 700px;
+}
+
+/* Animations */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 35s linear infinite;
+}
+
+@keyframes pulse-subtle {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 4s ease-in-out infinite;
+}
+
+/* Floating Bodhi Leaf animation */
+@keyframes float-leaf {
+  0% {
+    transform: translateY(0vh) translateX(0px) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.4;
+  }
+  50% {
+    transform: translateY(50vh) translateX(25px) rotate(180deg);
+    opacity: 0.5;
+  }
+  90% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(105vh) translateX(-25px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.animate-float-leaf {
+  animation: float-leaf linear infinite;
+}
